@@ -12,7 +12,7 @@ import android.os.Bundle;
  * Then go git
  * Press plus sign for a NEW branch
  * Create the new branch
- * Make sure ur in the right branch when commiting
+ * Make sure ur in the right branch when commiting, LoginFunc is the branch currently
  */
 
 public class MainActivity extends AppCompatActivity {
