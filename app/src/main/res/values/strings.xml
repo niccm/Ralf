@@ -1,4 +1,27 @@
 <resources>
     <string name="app_name">RalfBites</string>
-    <string name="buttonOne">this will be a button</string>
+    <string name="loginButtonStartUp">Login</string>
+    <string name="signupButtonStartUp">Sign Up</string>
+    <string name="signUpButtonDatabase">Sign Up</string>
+    <string name="usernameInputSignUp">Enter Username</string>
+    <string name="passwordInputSignUp">Enter Password</string>
+    <string name="passwordInputCheckSignUp">Re-Enter Password</string>
+    <string name="LoginButtonLoginPage">Login</string>
+    <string name="UsernameInputLogin">Enter Username</string>
+    <string name="PasswordInputLogin">Enter Password</string>
+    <string name="UsernameErrorText">Someone Already Has that Username</string>
+    <string name="yo">yo</string>
+    <string name="logoutButtonUserPage">Logout</string>
+    <string name="cartButtonUserPage">Cart</string>
+    <string name="Menu">Ralphs Menu</string>
+    <string name="addressText">Address:</string>
+    <string name="totalOrdersButtonAdmin">Total Orders</string>
+    <string name="priceChangeButtonAdmin">Change Price</string>
+    <string name="addMenuItemButtonAdmin">Add Item</string>
+    <string name="deleteUserButtonAdmin">Delete User</string>
+    <string name="deleteButtonDeletePage">Delete</string>
+    <string name="addItem">Add Item</string>
+    <string name="hintPrice">Enter Item Price</string>
+    <string name="hintDescription">Enter Item Description</string>
+    <string name="hintItemName">Enter Item Name</string>
 </resources>
