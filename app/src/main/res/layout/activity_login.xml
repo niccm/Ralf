@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/usernameInputLogin"
+        android:layout_width="368dp"
+        android:layout_height="126dp"
+        android:layout_marginBottom="200dp"
+        android:ems="10"
+        android:hint="@string/UsernameInputLogin"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/LoginButtonLoginPage"
+        android:layout_width="312dp"
+        android:layout_height="127dp"
+        android:layout_marginBottom="700dp"
+        android:text="@string/LoginButtonLoginPage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="368dp"
+        android:layout_height="126dp"
+        android:layout_marginBottom="200dp"
+        android:ems="10"
+        android:hint="@string/PasswordInputLogin"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/LoginButtonLoginPage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/credentialsNotValidated"-->
+<!--        android:layout_width="368dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:text="@string/wrongCredentials"-->
+<!--        android:textColor="#F44336"-->
+<!--        android:visibility="invisible"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/usernameInputLogin"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

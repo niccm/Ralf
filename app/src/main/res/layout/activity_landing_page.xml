@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminLandingPage">
+
+    <Button
+        android:id="@+id/totalOrderButton"
+        android:layout_width="544dp"
+        android:layout_height="176dp"
+        android:text="@string/totalOrdersButtonAdmin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <Button
+        android:id="@+id/changePriceButton"
+        android:layout_width="544dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/priceChangeButtonAdmin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totalOrderButton" />
+
+    <Button
+        android:id="@+id/addMenuItemButton"
+        android:layout_width="544dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/addMenuItemButtonAdmin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/changePriceButton" />
+
+    <Button
+        android:id="@+id/deleteUserButton"
+        android:layout_width="544dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/deleteUserButtonAdmin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addMenuItemButton"
+        app:layout_constraintVertical_bias="0.502" />
+
+    <Button
+        android:id="@+id/logoutButtonAdmin"
+        android:layout_width="544dp"
+        android:layout_height="176dp"
+        android:layout_marginBottom="150dp"
+        android:text="@string/logoutButtonUserPage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
