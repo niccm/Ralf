@@ -17,20 +17,20 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/loginButton"
+        android:id="@+id/signupButton"
         android:layout_width="300dp"
         android:layout_height="200dp"
-        android:text="Login"
+        android:text="Signup"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView" />
 
     <Button
-        android:id="@+id/signupButton"
+        android:id="@+id/loginbutton"
         android:layout_width="300dp"
         android:layout_height="200dp"
-        android:text="Sign up"
+        android:text="Login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
