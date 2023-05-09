@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //finish Logout
-        //Didnt make a branch
+        //Didnt make a branc
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
